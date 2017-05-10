@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		14064CBE1EAFC7B7000C44B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14064CBC1EAFC7B7000C44B9 /* AppDelegate.swift */; };
+		14064CBF1EAFC7B7000C44B9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14064CBD1EAFC7B7000C44B9 /* ViewController.swift */; };
+		14DE1E121EAE443500FE7A7D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14DE1E111EAE443500FE7A7D /* Assets.xcassets */; };
+		14DE1E151EAE443500FE7A7D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14DE1E131EAE443500FE7A7D /* Main.storyboard */; };
+		14DE1E201EAE443600FE7A7D /* AsanaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14DE1E1F1EAE443600FE7A7D /* AsanaTests.swift */; };
+		14DE1E2B1EAE443600FE7A7D /* AsanaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14DE1E2A1EAE443600FE7A7D /* AsanaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		14DE1E1C1EAE443600FE7A7D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 14DE1E021EAE443500FE7A7D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 14DE1E091EAE443500FE7A7D;
+			remoteInfo = Asana;
+		};
+		14DE1E271EAE443600FE7A7D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 14DE1E021EAE443500FE7A7D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 14DE1E091EAE443500FE7A7D;
+			remoteInfo = Asana;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		14064CBC1EAFC7B7000C44B9 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		14064CBD1EAFC7B7000C44B9 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		14DE1E0A1EAE443500FE7A7D /* Asana.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Asana.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		14DE1E111EAE443500FE7A7D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		14DE1E141EAE443500FE7A7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		14DE1E161EAE443500FE7A7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14DE1E1B1EAE443600FE7A7D /* AsanaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AsanaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		14DE1E1F1EAE443600FE7A7D /* AsanaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsanaTests.swift; sourceTree = "<group>"; };
+		14DE1E211EAE443600FE7A7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14DE1E261EAE443600FE7A7D /* AsanaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AsanaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		14DE1E2A1EAE443600FE7A7D /* AsanaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsanaUITests.swift; sourceTree = "<group>"; };
+		14DE1E2C1EAE443600FE7A7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		14DE1E071EAE443500FE7A7D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14DE1E181EAE443600FE7A7D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14DE1E231EAE443600FE7A7D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14064CBB1EAFC797000C44B9 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				14064CBC1EAFC7B7000C44B9 /* AppDelegate.swift */,
+				14064CBD1EAFC7B7000C44B9 /* ViewController.swift */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		14DE1E011EAE443500FE7A7D = {
+			isa = PBXGroup;
+			children = (
+				14DE1E0C1EAE443500FE7A7D /* Asana */,
+				14DE1E1E1EAE443600FE7A7D /* AsanaTests */,
+				14DE1E291EAE443600FE7A7D /* AsanaUITests */,
+				14DE1E0B1EAE443500FE7A7D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		14DE1E0B1EAE443500FE7A7D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				14DE1E0A1EAE443500FE7A7D /* Asana.app */,
+				14DE1E1B1EAE443600FE7A7D /* AsanaTests.xctest */,
+				14DE1E261EAE443600FE7A7D /* AsanaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		14DE1E0C1EAE443500FE7A7D /* Asana */ = {
+			isa = PBXGroup;
+			children = (
+				14064CBB1EAFC797000C44B9 /* src */,
+				14DE1E111EAE443500FE7A7D /* Assets.xcassets */,
+				14DE1E131EAE443500FE7A7D /* Main.storyboard */,
+				14DE1E161EAE443500FE7A7D /* Info.plist */,
+			);
+			path = Asana;
+			sourceTree = "<group>";
+		};
+		14DE1E1E1EAE443600FE7A7D /* AsanaTests */ = {
+			isa = PBXGroup;
+			children = (
+				14DE1E1F1EAE443600FE7A7D /* AsanaTests.swift */,
+				14DE1E211EAE443600FE7A7D /* Info.plist */,
+			);
+			path = AsanaTests;
+			sourceTree = "<group>";
+		};
+		14DE1E291EAE443600FE7A7D /* AsanaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				14DE1E2A1EAE443600FE7A7D /* AsanaUITests.swift */,
+				14DE1E2C1EAE443600FE7A7D /* Info.plist */,
+			);
+			path = AsanaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		14DE1E091EAE443500FE7A7D /* Asana */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14DE1E2F1EAE443600FE7A7D /* Build configuration list for PBXNativeTarget "Asana" */;
+			buildPhases = (
+				14DE1E061EAE443500FE7A7D /* Sources */,
+				14DE1E071EAE443500FE7A7D /* Frameworks */,
+				14DE1E081EAE443500FE7A7D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Asana;
+			productName = Asana;
+			productReference = 14DE1E0A1EAE443500FE7A7D /* Asana.app */;
+			productType = "com.apple.product-type.application";
+		};
+		14DE1E1A1EAE443600FE7A7D /* AsanaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14DE1E321EAE443600FE7A7D /* Build configuration list for PBXNativeTarget "AsanaTests" */;
+			buildPhases = (
+				14DE1E171EAE443600FE7A7D /* Sources */,
+				14DE1E181EAE443600FE7A7D /* Frameworks */,
+				14DE1E191EAE443600FE7A7D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				14DE1E1D1EAE443600FE7A7D /* PBXTargetDependency */,
+			);
+			name = AsanaTests;
+			productName = AsanaTests;
+			productReference = 14DE1E1B1EAE443600FE7A7D /* AsanaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		14DE1E251EAE443600FE7A7D /* AsanaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14DE1E351EAE443600FE7A7D /* Build configuration list for PBXNativeTarget "AsanaUITests" */;
+			buildPhases = (
+				14DE1E221EAE443600FE7A7D /* Sources */,
+				14DE1E231EAE443600FE7A7D /* Frameworks */,
+				14DE1E241EAE443600FE7A7D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				14DE1E281EAE443600FE7A7D /* PBXTargetDependency */,
+			);
+			name = AsanaUITests;
+			productName = AsanaUITests;
+			productReference = 14DE1E261EAE443600FE7A7D /* AsanaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		14DE1E021EAE443500FE7A7D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Hiperactivo;
+				TargetAttributes = {
+					14DE1E091EAE443500FE7A7D = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 542ZPNQ8TQ;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+					};
+					14DE1E1A1EAE443600FE7A7D = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 542ZPNQ8TQ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 14DE1E091EAE443500FE7A7D;
+					};
+					14DE1E251EAE443600FE7A7D = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 542ZPNQ8TQ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 14DE1E091EAE443500FE7A7D;
+					};
+				};
+			};
+			buildConfigurationList = 14DE1E051EAE443500FE7A7D /* Build configuration list for PBXProject "Asana" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 14DE1E011EAE443500FE7A7D;
+			productRefGroup = 14DE1E0B1EAE443500FE7A7D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				14DE1E091EAE443500FE7A7D /* Asana */,
+				14DE1E1A1EAE443600FE7A7D /* AsanaTests */,
+				14DE1E251EAE443600FE7A7D /* AsanaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		14DE1E081EAE443500FE7A7D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14DE1E121EAE443500FE7A7D /* Assets.xcassets in Resources */,
+				14DE1E151EAE443500FE7A7D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14DE1E191EAE443600FE7A7D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14DE1E241EAE443600FE7A7D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		14DE1E061EAE443500FE7A7D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14064CBF1EAFC7B7000C44B9 /* ViewController.swift in Sources */,
+				14064CBE1EAFC7B7000C44B9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14DE1E171EAE443600FE7A7D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14DE1E201EAE443600FE7A7D /* AsanaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14DE1E221EAE443600FE7A7D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14DE1E2B1EAE443600FE7A7D /* AsanaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		14DE1E1D1EAE443600FE7A7D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 14DE1E091EAE443500FE7A7D /* Asana */;
+			targetProxy = 14DE1E1C1EAE443600FE7A7D /* PBXContainerItemProxy */;
+		};
+		14DE1E281EAE443600FE7A7D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 14DE1E091EAE443500FE7A7D /* Asana */;
+			targetProxy = 14DE1E271EAE443600FE7A7D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		14DE1E131EAE443500FE7A7D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14DE1E141EAE443500FE7A7D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		14DE1E2D1EAE443600FE7A7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		14DE1E2E1EAE443600FE7A7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		14DE1E301EAE443600FE7A7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 542ZPNQ8TQ;
+				INFOPLIST_FILE = Asana/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cl.hiperactivo.Asana;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		14DE1E311EAE443600FE7A7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 542ZPNQ8TQ;
+				INFOPLIST_FILE = Asana/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cl.hiperactivo.Asana;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		14DE1E331EAE443600FE7A7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 542ZPNQ8TQ;
+				INFOPLIST_FILE = AsanaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cl.hiperactivo.AsanaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Asana.app/Contents/MacOS/Asana";
+			};
+			name = Debug;
+		};
+		14DE1E341EAE443600FE7A7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 542ZPNQ8TQ;
+				INFOPLIST_FILE = AsanaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cl.hiperactivo.AsanaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Asana.app/Contents/MacOS/Asana";
+			};
+			name = Release;
+		};
+		14DE1E361EAE443600FE7A7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 542ZPNQ8TQ;
+				INFOPLIST_FILE = AsanaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cl.hiperactivo.AsanaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Asana;
+			};
+			name = Debug;
+		};
+		14DE1E371EAE443600FE7A7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 542ZPNQ8TQ;
+				INFOPLIST_FILE = AsanaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cl.hiperactivo.AsanaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Asana;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		14DE1E051EAE443500FE7A7D /* Build configuration list for PBXProject "Asana" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14DE1E2D1EAE443600FE7A7D /* Debug */,
+				14DE1E2E1EAE443600FE7A7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14DE1E2F1EAE443600FE7A7D /* Build configuration list for PBXNativeTarget "Asana" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14DE1E301EAE443600FE7A7D /* Debug */,
+				14DE1E311EAE443600FE7A7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14DE1E321EAE443600FE7A7D /* Build configuration list for PBXNativeTarget "AsanaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14DE1E331EAE443600FE7A7D /* Debug */,
+				14DE1E341EAE443600FE7A7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14DE1E351EAE443600FE7A7D /* Build configuration list for PBXNativeTarget "AsanaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14DE1E361EAE443600FE7A7D /* Debug */,
+				14DE1E371EAE443600FE7A7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 14DE1E021EAE443500FE7A7D /* Project object */;
+}
