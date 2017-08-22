@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1421" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="B8D-0N-5wS">
+<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1611" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="B8D-0N-5wS">
     <dependencies>
         <deployment identifier="macosx"/>
         <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="11762"/>
@@ -64,6 +64,11 @@
                                         <menuItem title="New" keyEquivalent="n" id="Was-JA-tGl">
                                             <connections>
                                                 <action selector="newDocument:" target="Ady-hI-5gd" id="4Si-XN-c54"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem title="Reload" keyEquivalent="r" id="iW5-92-oMH">
+                                            <connections>
+                                                <action selector="reload:" target="Ady-hI-5gd" id="cVZ-Pw-e7G"/>
                                             </connections>
                                         </menuItem>
                                     </items>
@@ -399,16 +404,28 @@
                                     <nil key="identifier"/>
                                 </webPreferences>
                             </webView>
+                            <progressIndicator wantsLayer="YES" horizontalHuggingPriority="750" verticalHuggingPriority="750" maxValue="100" bezeled="NO" indeterminate="YES" style="spinning" translatesAutoresizingMaskIntoConstraints="NO" id="bEh-hx-qdg" userLabel="circularProgressIndicator">
+                                <rect key="frame" x="459" y="369" width="32" height="32"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="32" id="1de-3Q-uX5"/>
+                                    <constraint firstAttribute="width" constant="32" id="7M6-nI-zgX"/>
+                                </constraints>
+                            </progressIndicator>
                         </subviews>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="OSA-PC-ADw" secondAttribute="trailing" id="2dm-hS-XMa"/>
                             <constraint firstItem="OSA-PC-ADw" firstAttribute="top" secondItem="m2S-Jp-Qdl" secondAttribute="top" id="C9D-Yh-FNG"/>
+                            <constraint firstItem="bEh-hx-qdg" firstAttribute="centerY" secondItem="m2S-Jp-Qdl" secondAttribute="centerY" id="KBr-03-aUW"/>
                             <constraint firstAttribute="bottom" secondItem="OSA-PC-ADw" secondAttribute="bottom" id="WNY-nj-nMT"/>
                             <constraint firstItem="OSA-PC-ADw" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" id="YNF-4f-OmT"/>
+                            <constraint firstItem="bEh-hx-qdg" firstAttribute="centerX" secondItem="m2S-Jp-Qdl" secondAttribute="centerX" id="oal-Mr-Enc"/>
+                            <constraint firstItem="bEh-hx-qdg" firstAttribute="centerX" secondItem="m2S-Jp-Qdl" secondAttribute="centerX" id="rkZ-w1-kkd"/>
+                            <constraint firstItem="bEh-hx-qdg" firstAttribute="centerY" secondItem="m2S-Jp-Qdl" secondAttribute="centerY" id="sc8-xM-RiL"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="asanaWebView" destination="OSA-PC-ADw" id="KYX-PC-84O"/>
+                        <outlet property="circularProgressIndicator" destination="bEh-hx-qdg" id="ggb-Jz-4kt"/>
                     </connections>
                 </viewController>
                 <customObject id="rPt-NT-nkU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
